@@ -1,0 +1,418 @@
+{
+    "products": [
+        {
+            "id": "1",
+            "caption": "Фенек",
+            "description": "Любобытный и хитрый ушастый зверек",
+            "rating": "1",
+            "price": "10000",
+            "imageurl": "https://www.settemuse.it/sfondi_animali/mammiferi/volpi/volpe_008.jpg",
+            "category": "Animals"
+        },
+        {
+            "id": "2",
+            "caption": "Сом",
+            "description": "Умиротворенная рыбка",
+            "rating": "2",
+            "price": "13000",
+            "imageurl": "https://fb.ru/misc/i/gallery/66686/2402507.jpg",
+            "category": "Fish"
+        },
+        {
+            "id": "3",
+            "caption": "Собачий",
+            "description": "Корм для Активного питомца",
+            "rating": "3",
+            "price": "15000",
+            "imageurl": "https://domingo.su/images/main/BIG/000-470-414.jpg",
+            "category": "Feed"
+        },
+        {
+            "id": "4",
+            "caption": "Подставка для посуды",
+            "description": "Регулируемая высота",
+            "rating": "4",
+            "price": "12500",
+            "imageurl": "https://resources.cdn-kaspi.kz/shop/medias/sys_master/images/images/hc5/hc2/47026332237854/danko-zoo-kt2650rlf-102806017-1.jpg",
+            "category": "Accessories"
+        },
+        {
+            "id": "5",
+            "caption": "Какаду",
+            "description": "Требующий внимание пернатый, обучаем и говорлив",
+            "rating": "5",
+            "price": "8500",
+            "imageurl": "https://image.shutterstock.com/shutterstock/photos/548081887/display_1500/stock-photo-cockatoo-548081887.jpg",
+            "category": "Birds"
+        },
+        {
+            "id": "6",
+            "caption": "Коридорас",
+            "description": "Санитары аквариума",
+            "rating": "1",
+            "price": "4000",
+            "imageurl": "https://blog.tetra.net/ru/ru/wp-content/uploads/2020/07/koridoras-shterba.jpg",
+            "category": "Fish"
+        },
+        {
+            "id": "7",
+            "caption": "Птичий корм",
+            "description": "5 кг",
+            "rating": "2",
+            "price": "12000",
+            "imageurl": "https://image-cdn.kazanexpress.ru/butpjbufrsac959dmia0/original.jpg",
+            "category": "Feed"
+        },
+        {
+            "id": "8",
+            "caption": "Кормушка/Поилка",
+            "description": "Механическая",
+            "rating": "3",
+            "price": "8000",
+            "imageurl": "https://lemurrr.ru/medias/sys_master/images/h4b/hb0/8941382467614.jpg",
+            "category": "Accessories"
+        },
+        {
+            "id": "9",
+            "caption": "Петушок",
+            "description": "Рыба-Экстремал",
+            "rating": "4",
+            "price": "4000",
+            "imageurl": "https://blog.tetra.net/ru/ru/wp-content/uploads/2020/07/siamskij-petushok-betta-splendens.jpg",
+            "category": "Fish"
+        },
+        {
+            "id": "10",
+            "caption": "Фильтр для аквариума",
+            "description": "Погружной",
+            "rating": "5",
+            "price": "16500",
+            "imageurl": "https://ae01.alicdn.com/kf/HTB118glHVXXXXbdXXXXq6xXFXXX0/2015-hot-Selling-New-Arrival-New-Aquarium-Fish-Tank-Super-Pneumatic-Biochemical-Activated-Carbon-Filter-Free.jpg",
+            "category": "Accessories"
+        },
+        {
+            "id": "11",
+            "caption": "Корелла",
+            "description": "Общительная, непоседливая и дружелюбная птица",
+            "rating": "1",
+            "price": "7000",
+            "imageurl": "https://vplate.ru/images/article/cropped/337-253/2019/08/domashnie-pticy-obzor-populyarnyh-vidov-20.jpg",
+            "category": "Birds"
+        },
+        {
+            "id": "12",
+            "caption": "Корм для кроликов",
+            "description": "5кг",
+            "rating": "2",
+            "price": "18000",
+            "imageurl": "https://bagira-zoo.club/upload/iblock/512/5124e9eeb9ec9ef0b90d9ca177411073.jpg",
+            "category": "Feed"
+        },
+        {
+            "id": "13",
+            "caption": "Кормушка/Поилка",
+            "description": "Механическая",
+            "rating": "3",
+            "price": "20000,",
+            "imageurl": "https://sdelaysam-svoimirukami.ru/uploads/posts/2022-02/dolgoigrajuschaja-kormushka-dlja-domashnej-pticy-pvh-trub.jpg",
+            "category": "Accessories"
+        },
+        {
+            "id": "14",
+            "caption": "Скалярия",
+            "description": "«Рыбы-ангелы». Рекомендуется аквариум от 100 литров.",
+            "rating": "4",
+            "price": "8000",
+            "imageurl": "https://blog.tetra.net/ru/ru/wp-content/uploads/2020/07/skalyariya-belaya.jpg",
+            "category": "Fish"
+        },
+        {
+            "id": "15",
+            "caption": "Фильтр Sunsun",
+            "description": "Для акв. 150-300 л. 20 Вт. 900 лит/час.",
+            "rating": "5",
+            "price": "25000",
+            "imageurl": "https://cdn1.ozone.ru/s3/multimedia-m/6103092610.jpg",
+            "category": "Accessories"
+        },
+        {
+            "id": "16",
+            "caption": "Ретривер",
+            "description": "Турбо-aктивный питомец",
+            "rating": "1",
+            "price": "47000",
+            "imageurl": "https://for-pet.ru/wp-content/uploads/206743-edited-scaled.jpg",
+            "category": "Animals"
+        },
+        {
+            "id": "17",
+            "caption": "Рыбий корм",
+            "description": "4кг",
+            "rating": "2",
+            "price": "13500",
+            "imageurl": "https://cdn1.ozone.ru/s3/multimedia-9/6283979205.jpg",
+            "category": "Feed"
+        },
+        {
+            "id": "18",
+            "caption": "Террариум",
+            "description": "Размеры':__,__'",
+            "rating": "3",
+            "price": "25500",
+            "imageurl": "https://i.pinimg.com/originals/60/8b/e5/608be5be0fb8928b4574744bfdf255b8.jpg",
+            "category": "Accessories"
+        },
+        {
+            "id": "19",
+            "caption": "Барбусы",
+            "description": "Неприхотливы в содержании и легко размножаются в домашних условиях",
+            "rating": "4",
+            "price": "55000",
+            "imageurl": "https://blog.tetra.net/ru/ru/wp-content/uploads/2020/07/sumatranskij-barbus-2.jpg",
+            "category": "Fish"
+        },
+        {
+            "id": "20",
+            "caption": "Данио",
+            "description": "Стайка из шести особей. Для содержания не понадобится большой аквариум",
+            "rating": "5",
+            "price": "12500",
+            "imageurl": "https://blog.tetra.net/ru/ru/wp-content/uploads/2020/07/danio-rerio-rozovyj.jpg",
+            "category": "Fish"
+        },
+        {
+            "id": "21",
+            "caption": "Сервал",
+            "description": "Активный и характерный мурлыка",
+            "rating": "1",
+            "price": "45000",
+            "imageurl": "https://klkfavorit.ru/wp-content/uploads/4/d/b/4db2dcbc74a21af1dfba49df8dd8b6a3.jpeg",
+            "category": "Animals"
+        },
+        {
+            "id": "22",
+            "caption": "Аквариум",
+            "description": "Размеры:'__,__'",
+            "rating": "2",
+            "price": "150000",
+            "imageurl": "https://reefcoral.ru/wp-content/uploads/b/1/4/b149c8ef31cc58daa4b508f2f29b9bf1.jpg",
+            "category": "Accessories"
+        },
+        {
+            "id": "23",
+            "caption": "Неразлучники",
+            "description": "Требовательный пернатый, нуждается в паре",
+            "rating": "3",
+            "price": "12000",
+            "imageurl": "https://vplate.ru/images/article/thumb/715-0/2019/08/domashnie-pticy-obzor-populyarnyh-vidov-21.jpg",
+            "category": "Birds"
+        },
+        {
+            "id": "24",
+            "caption": "Жако",
+            "description": "Попугай-имитатор. Невероятно умная, подвижная и общительная",
+            "rating": "5",
+            "price": "40000",
+            "imageurl": "https://vplate.ru/images/article/thumb/715-0/2019/08/domashnie-pticy-obzor-populyarnyh-vidov-24.jpg",
+            "category": "Birds"
+        },
+        {
+            "id": "25",
+            "caption": "Минизамок на скале",
+            "description": "Aквариумный декор",
+            "rating": "4",
+            "price": "50000",
+            "imageurl": "https://lapyshki.ru/files/catalog/2020/12/49308_img1.jpg",
+            "category": "Accessories"
+        },
+        {
+            "id": "26",
+            "caption": "Сурикат",
+            "description": "Милый зверек",
+            "rating": "1",
+            "price": "60000",
+            "imageurl": "https://img5.goodfon.ru/original/2048x2048/3/65/surikat-surikata-detenysh-malysh-portret-mordashka-vzgliad-b.jpg",
+            "category": "Animals"
+        },
+        {
+            "id": "27",
+            "caption": "Переноска",
+            "description": "Размеры:'__,__'",
+            "rating": "2",
+            "price": "55000",
+            "imageurl": "https://i.parket-sale.ru/i/5/7/mebel-izdeliya-iz-lozi-korzini-pletenie-perenoska-dlya-zhivotnih-sploshnaya-1.jpg",
+            "category": "Accessories"
+        },
+        {
+            "id": "28",
+            "caption": "Анциструс",
+            "description": "Защитник и украшение Аквариума",
+            "rating": "3",
+            "price": "30000",
+            "imageurl": "https://blog.tetra.net/ru/ru/wp-content/uploads/2020/07/Ancistrus.jpg",
+            "category": "Fish"
+        },
+        {
+            "id": "29",
+            "caption": "Аквариумный декор",
+            "description": "Пластиковые водяные сорняки, аквариумные растения",
+            "rating": "4",
+            "price": "20000",
+            "imageurl": "https://ae01.alicdn.com/kf/HTB18CSjGrSYBuNjSspiq6xNzpXaJ/-.jpg",
+            "category": "Accessories"
+        },
+        {
+            "id": "30",
+            "caption": "Тернеция",
+            "description": "Миролюбывые хулиганы",
+            "rating": "5",
+            "price": "17000",
+            "imageurl": "https://blog.tetra.net/ru/ru/wp-content/uploads/2020/07/terneciya-ili-chernaya-tetra.jpg",
+            "category": "Fish"
+        },
+        {
+            "id": "31",
+            "caption": "Снегирь",
+            "description": "Эта разновидность птиц отлично ладит с людьми",
+            "rating": "1",
+            "price": "22000",
+            "imageurl": "https://vplate.ru/images/article/thumb/715-0/2019/08/domashnie-pticy-obzor-populyarnyh-vidov-28.jpg",
+            "category": "Birds"
+        },
+        {
+            "id": "32",
+            "caption": "Амарант",
+            "description": "Красавец",
+            "rating": "2",
+            "price": "24000",
+            "imageurl": "https://vplate.ru/images/article/cropped/337-253/2019/08/domashnie-pticy-obzor-populyarnyh-vidov-32.jpg",
+            "category": "Birds"
+        },
+        {
+            "id": "33",
+            "caption": "Моллинезия",
+            "description": "Миролюбивая, но всеядная",
+            "rating": "3",
+            "price": "55000",
+            "imageurl": "https://blog.tetra.net/ru/ru/wp-content/uploads/2020/07/mollinezi-mirolyubivye-i-neprihotlivye.jpg",
+            "category": "Fish"
+        },
+        {
+            "id": "34",
+            "caption": "Амадины",
+            "description": "'Фанерный' непоседа",
+            "rating": "4",
+            "price": "8000",
+            "imageurl": "https://vplate.ru/images/article/thumb/715-0/2019/08/domashnie-pticy-obzor-populyarnyh-vidov-33.jpg",
+            "category": "Birds"
+        },
+        {
+            "id": "35",
+            "caption": "Гуппи",
+            "description": "Выносливая, живородящая",
+            "rating": "5",
+            "price": "13000",
+            "imageurl": "https://blog.tetra.net/ru/ru/wp-content/uploads/2020/07/Guppi-vneshnij-vid.jpg",
+            "category": "Fish"
+        },
+        {
+            "id": "36",
+            "caption": "Кролик",
+            "description": "Грызун-оглоеда",
+            "rating": "1",
+            "price": "4000",
+            "imageurl": "https://pro-dachnikov.com/uploads/posts/2021-10/1633777906_26-p-domashnii-krolik-foto-26.jpg",
+            "category": "Animals"
+        },
+        {
+            "id": "37",
+            "caption": "Голубь",
+            "description": "Каждый знает",
+            "rating": "2",
+            "price": "12000",
+            "imageurl": "https://vplate.ru/images/article/thumb/715-0/2019/08/domashnie-pticy-obzor-populyarnyh-vidov-34.jpg",
+            "category": "Birds"
+        },
+        {
+            "id": "38",
+            "caption": "Рысь",
+            "description": "Активный и ласковый зверек",
+            "rating": "3",
+            "price": "4000",
+            "imageurl": "https://chudo-prirody.com/uploads/posts/2021-08/1628779788_91-p-kotenok-risi-foto-99.jpg",
+            "category": "Animals"
+        },
+        {
+            "id": "39",
+            "caption": "Хомяк",
+            "description": "Мелкий, шустрый зверек",
+            "rating": "4",
+            "price": "4000",
+            "imageurl": "https://levanclub.ru/wp-content/uploads/2022/08/skolko-let-zhivut-dzhungarskie-homyaki-v-domashnih-usloviyah.jpg",
+            "category": "Animals"
+        },
+        {
+            "id": "40",
+            "caption": "Золотая рыбка",
+            "description": "Требовательная в уходе",
+            "rating": "5",
+            "price": "4000",
+            "imageurl": "https://blog.tetra.net/ru/ru/wp-content/uploads/2020/07/zolotaya-rybka.jpg",
+            "category": "Fish"
+        },
+        {
+            "id": "41",
+            "caption": "Акары",
+            "description": "Агресивный хищник",
+            "rating": "1",
+            "price": "4000",
+            "imageurl": "https://blog.tetra.net/ru/ru/wp-content/uploads/2020/07/akary-hishchniki-v-yarkom-odeyanii.jpg",
+            "category": "Fish"
+        },
+        {
+            "id": "42",
+            "caption": "Замок Ласточкино гнездо",
+            "description": "Декорация для аквариума",
+            "rating": "2",
+            "price": "4000",
+            "imageurl": "https://avatars.mds.yandex.net/get-mpic/5236177/img_id178602336676406073.jpeg/orig",
+            "category": "Accessories"
+        },
+        {
+            "id": "43",
+            "caption": "Канарейка",
+            "description": "Мирные и дружелюбные",
+            "rating": "3",
+            "price": "4000",
+            "imageurl": "https://ecoportal.info/wp-content/uploads/2017/02/kanareyka.jpg",
+            "category": "Birds"
+        },
+        {
+            "id": "44",
+            "caption": "Рыба-попугай",
+            "description": "Гибрид американских цихлид",
+            "rating": "4",
+            "price": "4000",
+            "imageurl": "https://blog.tetra.net/ru/ru/wp-content/uploads/2020/07/ryba-popugaj.jpg",
+            "category": "Fish"
+        },
+        {
+            "id": "45",
+            "caption": "Разбитый кувшин",
+            "description": "Декор аквариумный",
+            "rating": "5",
+            "price": "4000",
+            "imageurl": "https://cdn2.static1-sima-land.com/items/1753217/0/700-nw.jpg",
+            "category": "Accessories"
+        },
+        {
+            "id": "46",
+            "caption": "Ара",
+            "description": "Компания неосмысленных бесед",
+            "rating": "1",
+            "price": "4000",
+            "imageurl": "https://ecoportal.info/wp-content/uploads/2018/09/sine-zheltiy-ara.jpg",
+            "category": "Birds"
+        }
+    ]
+}
