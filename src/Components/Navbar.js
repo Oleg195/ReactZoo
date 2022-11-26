@@ -21,6 +21,7 @@ const signİn=()=>{
         <div>
         <div className="navbar-body ">
           <div className="links">
+          <NavLink className={splitLocation[1] === "Inform" ? "active" : "navlink"} to="/Inform" exact>Главная</NavLink>
             <NavLink className={splitLocation[1] === "products" ? "active" : "navlink"} to="/products" exact>Товары</NavLink>
             <NavLink className={splitLocation[1] === "cart" ? "active" : "navlink box-navlink"} to="/cart" exact><i className="fas fa-shopping-cart"></i><span className="order-count">{props.orderCount}</span>  <span className="box">Корзина</span> </NavLink>
             {props.out?(<span className="navlink quit" onClick={out} >Выход</span>):(<span className="navlink quit" onClick={signİn} >Войти</span>)}

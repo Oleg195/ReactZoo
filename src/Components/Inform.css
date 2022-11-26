@@ -1,0 +1,35 @@
+.fon {
+    color: rgb(2, 13, 25);
+    background-color: #d51414;
+     background-image: url(https://proprikol.ru/wp-content/uploads/2019/08/kartinki-na-zadnij-fon-28.jpg); 
+  }
+  
+  .bcg {
+    background: no-repeat center center/cover;
+    height: 194vh;
+    width: 119vh;
+  }
+  .imgblock {
+    position: relative;
+    display: inline-block;
+  }
+
+  .textp {background-image:url(https://catherineasquithgallery.com/uploads/posts/2021-02/1614537631_37-p-ramka-na-belom-fone-59.png) ;
+    background-size: 100% 100%;
+    background-color: rgb(85, 211, 211);
+    border-radius: 20px;
+  padding: 40px 40px;}
+  .Htext {
+    background-color: rgb(1, 230, 255);
+    color: rgb(246, 240, 241);
+
+    /* mix-blend-mode: multiply; */
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    font-size: 20px;
+    padding: 5px 250px;
+    margin:  145px 25px;
+
+  }
+  

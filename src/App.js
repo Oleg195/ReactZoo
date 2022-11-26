@@ -9,6 +9,7 @@ import LoginSuccess from './Components/LoginSuccess';
 import LoginError from './Components/LoginError';
 import RegisterError from './Components/RegisterError';
 import RegisterSuccess from './Components/RegisterSuccess';
+import Inform from './Components/Inform';
 import 'animate.css/animate.css';
 import axiosLink from './Products/Products.json';
 import { ProductsContext } from './Context';
@@ -247,6 +248,7 @@ function App() {
         <Route exact path="/cart">
           <Cart newData={cart} delete={deleteFromCart} in={handleInCrement} de={handleDeCrement} orderCount={orderCount} accountOut={accountOut} button={Boolean(orderCount)} userId={userId}  userEmail={userEmail}/>
         </Route>
+        <Route exact path="/Inform"><Inform/> </Route>
 
 
 

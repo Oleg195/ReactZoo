@@ -20,8 +20,8 @@
         },
         {
             "id": "3",
-            "caption": "Собачий",
-            "description": "Корм для Активного питомца",
+            "caption": "Собачий корм",
+            "description": "5 кг",
             "rating": "3",
             "price": "15000",
             "imageurl": "https://domingo.su/images/main/BIG/000-470-414.jpg",
@@ -156,7 +156,7 @@
         {
             "id": "18",
             "caption": "Террариум",
-            "description": "Размеры':__,__'",
+            "description": "Размеры:60х40х40",
             "rating": "3",
             "price": "25500",
             "imageurl": "https://i.pinimg.com/originals/60/8b/e5/608be5be0fb8928b4574744bfdf255b8.jpg",
@@ -192,7 +192,7 @@
         {
             "id": "22",
             "caption": "Аквариум",
-            "description": "Размеры:'__,__'",
+            "description": "Размеры:'55×50×40'",
             "rating": "2",
             "price": "150000",
             "imageurl": "https://reefcoral.ru/wp-content/uploads/b/1/4/b149c8ef31cc58daa4b508f2f29b9bf1.jpg",
@@ -237,7 +237,7 @@
         {
             "id": "27",
             "caption": "Переноска",
-            "description": "Размеры:'__,__'",
+            "description": "Размеры:'40х40х60' Вес:'8-10 кг'",
             "rating": "2",
             "price": "55000",
             "imageurl": "https://i.parket-sale.ru/i/5/7/mebel-izdeliya-iz-lozi-korzini-pletenie-perenoska-dlya-zhivotnih-sploshnaya-1.jpg",

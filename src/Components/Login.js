@@ -84,6 +84,7 @@ useEffect(() => {
                 <div className="login-body">
     <div className="false-body ">
                <div className="false-buttons">
+               <Link to="/Inform" style={{textDecoration:"none"}}><span>Главное</span></Link>
                    <Link to="/products" style={{textDecoration:"none"}}><span>Продукты</span></Link>
                    <Link to="/cart" style={{textDecoration:"none"}}><span>
 Корзина</span></Link>

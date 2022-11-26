@@ -30,7 +30,7 @@ import { render } from '@testing-library/react';
                        <div className="item-footer">
                         <div className="rating">
                         
-                       <Ratings  number={props.rating} />
+                       {/* <Ratings  number={props.rating} /> */}
                       
 
                    
@@ -38,10 +38,14 @@ import { render } from '@testing-library/react';
                         <span className="price">{props.price} <span className="current">Тнг</span></span>
                         </div>
                         </div>
+                        {/* <button
+                //   class="btn btn-success"
+                //   onClick={() => getIdx(index)}
+                //   to={"/product" + product.id + product.text}
+                >
+                  Информация
+                </button> */}
 {(button===1)?(<button className="addtocart" onClick={props.add.bind(this,props.index)}><i className="fas fa-shopping-cart"></i>Добавить в корзину</button>)  : (<button className="addtocart danger" ><i className="fas fa-exclamation-circle"></i>Вы должны войти в систему</button>)}
-
-                        {/* <button className="addtocart" onClick={props.add.bind(this,props.index)}><i className="fas fa-shopping-cart"></i>Səbətə əlavə et</button> */}
-                        {/* <button className="addtocart danger" ><i className="fas fa-exclamation-circle"></i>Giriş etməlisiniz</button> */}
                     </div>
         )
     

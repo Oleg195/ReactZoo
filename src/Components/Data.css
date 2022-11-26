@@ -29,11 +29,12 @@
 }
 .data::-webkit-scrollbar {
     width: 15px;
+    
   }
   .data::-webkit-scrollbar-track {
     background: #4e54c8;
     border-radius: 5px;
-  
+
 
 
   }
@@ -42,6 +43,7 @@
     background: #fff;;;
     width: 20px;
     border-radius: 5px;
+
   }
 
   @media screen and (max-width: 1024px) {
@@ -82,10 +84,12 @@
   
   .data::-webkit-scrollbar {
       width: 20px;
+
     }
     .data::-webkit-scrollbar-track {
       background: #4e54c8;
       border-radius: 5px;
+  
     
   
   
@@ -94,6 +98,7 @@
     .data::-webkit-scrollbar-thumb {
       background: #fff;;;
       width: 20px;
+
     }
   
   }
