@@ -68,7 +68,7 @@ useEffect(() => {
   
   
         } else {
-          console.log("giris yoxdur")
+          console.log("giris yoxdur/какойто текст")
   
         }
       })
@@ -164,14 +164,12 @@ if(operatorNum===""){
         <div className="order animate__animated animate__fadeInDownBig " style={{display:props.show}}>
         <div className="order-body">
 
-<h2 className='white'>Заказать</h2>
+<h2 className='white'>Анкета Заказа</h2>
 <h3 className='white' >Ваше Имя:</h3>
 <input type="text" alt="Имя" style={{width:'250px'}}/>
-<h3 className='white' >Ваша Фамилия:</h3>
-<input type="text" alt="Фамилия" style={{width:'250px'}}/>
 <br/>
 <h3 className='white' >Ваш телефон:</h3>
-<div className="tel-input">
+<div className="tel-input centre">
 <form onSubmit={orderFinish}>
     <div className="order-inputs">
 <input type="text" id="country-number"  defaultValue="+997" />
@@ -272,7 +270,14 @@ if(operatorNum===""){
 <input type="text" alt="Адресс" style={{width:'250px'}}/>
 <h3 className='white' >Способ оплаты:</h3>
 
-<div className="radio-btn-container" style={{ display: "flex" }}>
+<div className="radio-btn-container" style={{ display: "flex",justifyContent:'center' }}>
+          <RadioButton
+          changed={radioChangeHandler}
+          id="2"
+          isSelected={paymentMethod === "COD"}
+          label="Наличный"
+          value="COD"
+        />   
         <RadioButton
           changed={radioChangeHandler}
           id="1"
@@ -280,23 +285,31 @@ if(operatorNum===""){
           label="Безналичный"
           value="QuickPay"
         />
-
-        <RadioButton
-          changed={radioChangeHandler}
-          id="2"
-          isSelected={paymentMethod === "COD"}
-          label="Наличный"
-          value="COD"
-        />
       </div>
-      {paymentMethod === "QuickPay" && (
+      {paymentMethod === "QuickPay" && (<div>
         <input
           style={{ marginTop: "10px", width:'250px' }}
-          type="text"
-          placeholder="Введите номер карты"
-
-        />)}
+          type="Text" pattern="[0-9]" maxlength="16"
+          placeholder="Фамилия и Имя владельца"/>
+         <div>
+        <input
+          style={{ marginTop: "10px", width:'250px' }}
+          type="Text" pattern="[0-9]" maxlength="16"
+          placeholder="Введите номер карты"/>
+              <br/>
+                 <input
+        style={{ marginTop: "10px", width:'250px'}}
+        type="month" id="expiry" className="form-control" delimiter="/" placeholder="mm/yy"/>
+        
+        <input
+        style={{ marginTop: "10px", width:'250px' }}
+        type="Text" maxlength="3" pattern="[0-9]*"
+        placeholder="Введите CVC"/>
+        </div>
+        </div>
+        )}
 </div>
+
 <br/>
 <div className="order-buttons">
 <input type="submit" id ="submit"value="Заказать" />
