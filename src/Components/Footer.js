@@ -6,18 +6,18 @@ export default function Footer() {
             <div className="footer-body">
 
                 <div className='text'>
-                Мы в соц сетях:<br/>
-<a href='#'>
-<img src="https://phonoteka.org/uploads/posts/2021-04/1619706223_29-phonoteka_org-p-znachok-instagram-bez-fona-dlya-fotoshopa-29.png" width="45" height="30"/> 
+                Мы в соц.сетях:<br/>
+                <a href='https://vk.com/olegus_gromus'>
+<img src="https://avatars.yandex.net/get-music-user-playlist/34120/298221175.1002.45849/m1000x1000?1554117113635&webp=false" width="40" height="30" className='Pa'/> 
+</a> 
+<a href='https://mail.ru/?ysclid=laz537k34v562750109'>
+<img src="https://media.slid.es/uploads/182257/images/1392527/written1.png"  width="40" height="30"/> 
 </a> 
 <a href='#'>
-<img src="https://media.slid.es/uploads/182257/images/1392527/written1.png"  width="45" height="40"/> 
+<img src="https://pixy.org/src2/576/5761775.png"  width="40" height="30"/> 
 </a> 
-<a href='#'>
-<img src="https://pixy.org/src2/576/5761775.png"  width="45" height="40"/> 
-</a> 
-<a href='#'>
-<img src="https://static.cdnlogo.com/logos/f/47/facebook-3.svg"  width="45" height="40"/> 
+<a href='https://www.facebook.com/profile.php?id=100005675358373'>
+<img src="https://static.cdnlogo.com/logos/f/47/facebook-3.svg"  width="40" height="30"/> 
 </a> 
 
                     <br/>                  

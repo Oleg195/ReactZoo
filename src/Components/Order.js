@@ -167,7 +167,7 @@ if(operatorNum===""){
 <h2 className='white'>Анкета Заказа</h2>
 <h3 className='white' >Ваше Имя:</h3>
 <input type="text" alt="Имя" style={{width:'250px'}}/>
-<br/>
+
 <h3 className='white' >Ваш телефон:</h3>
 <div className="tel-input centre">
 <form onSubmit={orderFinish}>
@@ -289,12 +289,12 @@ if(operatorNum===""){
       {paymentMethod === "QuickPay" && (<div>
         <input
           style={{ marginTop: "10px", width:'250px' }}
-          type="Text" pattern="[0-9]" maxlength="16"
+          type="Text"  maxlength="16"
           placeholder="Фамилия и Имя владельца"/>
          <div>
         <input
           style={{ marginTop: "10px", width:'250px' }}
-          type="Text" pattern="[0-9]" maxlength="16"
+          type="Text" pattern="[0-9]*" maxlength="16"
           placeholder="Введите номер карты"/>
               <br/>
                  <input
