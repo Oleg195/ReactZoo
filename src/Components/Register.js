@@ -69,7 +69,7 @@ function Register(props) {
                         </div>
                         <div className="register-footer">
                             <div className="register-login">
-                                {/* <Link to="/login" className="login-link">Giriş</Link> */}
+
 
                             </div>
 

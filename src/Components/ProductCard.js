@@ -45,7 +45,7 @@ import { render } from '@testing-library/react';
                 >
                   Информация
                 </button> */}
-{(button===1)?(<button className="addtocart" onClick={props.add.bind(this,props.index)}><i className="fas fa-shopping-cart"></i>Добавить в корзину</button>)  : (<button className="addtocart danger" ><i className="fas fa-exclamation-circle"></i>Вы должны войти в систему</button>)}
+{(button===1)?(<button className="addtocart" onClick={props.add.bind(this,props.index)}><i className="fas fa-shopping-cart"></i>Добавить в корзину</button>)  : (<button className="addtocart danger" ><i className="fas fa-exclamation-circle"></i>Войдите в систему</button>)}
                     </div>
         )
     

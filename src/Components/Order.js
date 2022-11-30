@@ -68,7 +68,7 @@ useEffect(() => {
   
   
         } else {
-          console.log("giris yoxdur/какойто текст")
+          console.log("какойто текст")
   
         }
       })
