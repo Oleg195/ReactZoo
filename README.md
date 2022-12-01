@@ -1,11 +1,4 @@
-## Shopping-Cart (React + Firebase) Project
 
-
-## Live Demo
-1. #### [Live Demo (Github.io) ](https://sooleymanli.github.io/ShoppingCartReactFirebase/) 
-
-## Screenshot
-![ScreenShot](screenshot.gif)
 
 
 ## Used

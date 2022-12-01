@@ -117,7 +117,7 @@ function App() {
 
       } else {
 
-        updateStore([...cart.cartdata, { ...axiosLink.products[indexx], "pieces": 1 }])
+        updateStore([...cart.cartdata, {  ...axiosLink.products[indexx], "pieces": 1 }])
 
 
       }
