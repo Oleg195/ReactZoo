@@ -68,7 +68,7 @@ useEffect(() => {
   
   
         } else {
-          console.log("какойто текст")
+          console.log("текст")
   
         }
       })

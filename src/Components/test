@@ -34,8 +34,8 @@ setOrderCount(orderCount+1)
                 <div className="login-body">
     <div className="false-body ">
                <div className="false-buttons">
-                   <Link to="/products" style={{textDecoration:"none"}}><span>Məhsullar</span></Link>
-                   <Link to="/cart" style={{textDecoration:"none"}}><span>Səbət</span></Link>
+                   <Link to="/products" style={{textDecoration:"none"}}><span>Товары</span></Link>
+                   <Link to="/cart" style={{textDecoration:"none"}}><span>Корзина</span></Link>
                </div>
                </div>
 
@@ -52,7 +52,7 @@ setOrderCount(orderCount+1)
                 <div className="login-body">
                <div className="login-content">
     <div className="login-caption">
-      DAXİL OL
+      ВОЙТИ
     </div>
     <hr></hr>
     <div className="login-form">

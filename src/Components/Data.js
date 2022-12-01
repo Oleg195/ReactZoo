@@ -60,13 +60,3 @@ function Data(data) {
 }
 
 export default Data;
-
-
-
-
-
-{/* <div className="cart-mains animate__animated animate__fadeInUpBig animate__delay-0.7s">
-<div className="cart-bodys">
-   <div className="notCart"><i className="fas fa-exclamation-circle"></i>  Daxil olmamağınız səbə ilə bu səhifəyə baxa bilməzsiz! </div>
-</div>
-</div> */}

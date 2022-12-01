@@ -29,7 +29,7 @@ const handleSignIn=(e)=>{
 props.showFunc("flex")
 setTimeout(()=>{
     props.showFunc("none")
-    // props.changeLinks("flex")
+
 
     history.push("/products");
   
@@ -112,9 +112,7 @@ useEffect(() => {
 
 <div className="login-footer">
 
-<div className="register-class">
-    {/* <Link to="/register" className="register-link">Qeydiyyat</Link> */}
-</div>
+
 
 <div className="login-submit">
     <button onClick={redirectRegister}><i className="fas fa-user-plus" style={{marginRight:"10px"}}></i> Регистрация</button>

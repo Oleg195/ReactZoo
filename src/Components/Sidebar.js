@@ -1,6 +1,5 @@
 import React, {Component} from 'react'
 import './Sidebar.css'
-// import {Link} from 'react-router-dom'
 
 
 class Sidebar extends Component{
@@ -23,8 +22,6 @@ render(){
             <div className="sidebar-body">
                 <div className="sidebar-content">
                     <div className="caption">
-                    {/* <i className="fas fa-bars"></i> */}
-                    {/* <img src={Shopping} style={{width:"30px"}} alt=""/> */}
                     <div className="icon"><ion-icon name="grid"></ion-icon></div>
                        <div className="catagory-name"> <h2>Разделы</h2> </div>
                     </div>
@@ -45,7 +42,6 @@ render(){
 
                     <hr></hr>
                     <span className={this.state.all}  onClick={this.changeClass.bind(this)}>Все</span>
-                    {/* <span className={this.state.logout}  onClick={this.changeClass.bind(this)}><span className="logout"><Link to="/">Çıxış et</Link></span> <i className="fas fa-sign-out-alt"></i> </span> */}
 
 
                     </div>
